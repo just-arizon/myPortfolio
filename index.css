@@ -1,0 +1,16 @@
+@font-face {
+    font-family: SpaceAge;
+    src: url(fonts/space\ age.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.logoSymbol{
+    font-family: SpaceAge;
+}
