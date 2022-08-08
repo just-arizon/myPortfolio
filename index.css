@@ -37,7 +37,6 @@ nav#navigation{
     width: 50px;
     height: 50px;
     /* background-color: #ddd; */
-    
     border-radius: 50%;
     margin-left: 15px;
     margin-top: 15px;
@@ -98,6 +97,7 @@ div.links{
 }
 
 /* Section homePage */
+
     div#homePage{
         width: 100%;
         height: 570px;
@@ -190,11 +190,6 @@ div.links{
     section.project{
         width: 100%;
         height: 100vh;
-        /* background-image: url(./images/art-1478833_1920.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover; */
-        /* filter: blur(-30px); */
         display: flex;
         justify-content: center;
        
