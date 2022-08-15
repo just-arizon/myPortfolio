@@ -18,6 +18,7 @@ header{
     width: 100%;
     height: 100vh;
     background: #d5d5d5;
+    
 }
 
 
@@ -32,6 +33,7 @@ nav#navigation{
 
 .logo{
     /* background-color: #343434; */
+    
 }
 .myLogo{
     width: 50px;
@@ -41,6 +43,7 @@ nav#navigation{
     margin-left: 15px;
     margin-top: 15px;
     padding-top: 2px;
+     
     
 
 }
@@ -89,6 +92,7 @@ div.links{
     outline: none;
     border: none;
     border-radius: 5px;
+    
 }
 .firstBtn button .secondBtn {
     text-align: center;
@@ -179,6 +183,7 @@ div.links{
     div.homePage-container-one-img > img{
         width: 300px;
         height: 300px;
+        
     }
     /* Main */
     main{
@@ -187,12 +192,18 @@ div.links{
         z-index: -2000;
     }
   /* Second Section */
+  /* Project-Section */
     section.project{
         width: 100%;
         height: 100vh;
         display: flex;
         justify-content: center;
+        z-index: 1;
        
+    }
+
+    section.secondSection{
+        background: ;
     }
        
     .project-container{
@@ -248,7 +259,7 @@ div.links{
         margin-bottom: 20px;
         border-radius: 20px;
         animation:  8s container ease-in-out infinite;
-        
+        border: 2px solid green;
     }
 
  
