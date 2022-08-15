@@ -93,11 +93,13 @@ div.links{
     border: none;
     border-radius: 5px;
     
+    
 }
 .firstBtn button .secondBtn {
     text-align: center;
     color: #000;
     font-size: 17px;
+    
 }
 
 /* Section homePage */
@@ -249,6 +251,7 @@ div.links{
         grid-template-columns: auto;
         /* background-color: #696969; */
         overflow: hidden;
+        isolation: isolate;
        
     }
 
@@ -336,3 +339,7 @@ footer > h3{
     text-align: center;
     
 }
+.darkmode-layer, .darkmode-toggle {
+    z-index: 500;
+  }
+  
